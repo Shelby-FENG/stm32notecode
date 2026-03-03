@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 219.51103591918945
   },
   "right": {
     "id": "4b4fa0bb63dc4078",
@@ -194,6 +194,8 @@
   },
   "active": "145ed619950f05ee",
   "lastOpenFiles": [
+    "STM32H7/Pic/CAN总线技术笔记/Pasted image 20260303224341.png",
+    "STM32H7/Pic/CAN总线技术笔记",
     "STM32H7/Note/STM32 非阻塞式多功能按键驱动.md",
     "STM32H7/Note/CAN总线技术笔记.md",
     "README.md",
