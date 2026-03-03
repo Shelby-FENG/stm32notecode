@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STM32H7/Note/CAN总线技术笔记.md",
+                "file": "STM32H7/Note/STM32 非阻塞式多功能按键驱动.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CAN总线技术笔记"
+              "title": "STM32 非阻塞式多功能按键驱动"
             }
           }
         ]
@@ -194,8 +194,8 @@
   },
   "active": "145ed619950f05ee",
   "lastOpenFiles": [
-    "STM32H7/Note/STM32 非阻塞式多功能按键驱动.md",
     "STM32H7/Note/CAN总线技术笔记.md",
+    "STM32H7/Note/STM32 非阻塞式多功能按键驱动.md",
     "README.md",
     "STM32H7/Pic/STM32 非阻塞式多功能按键驱动/Pasted image 20260101103923.png",
     "STM32H7/Pic/STM32 非阻塞式多功能按键驱动/Pasted image 20260101103719.png",
