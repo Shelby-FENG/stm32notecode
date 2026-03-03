@@ -40,4 +40,23 @@ Time: 2026-03-03
   
 - BRS (Bit rate switching)：比特率切换。这是 FD_CAN 专属的"狂飙加速开关"。如果这位被置为 1（隐性电平），就意味着过了这个位之后，通信波特率将瞬间切换到高速挡。
   
-- 
+- EDL (Extended data length)：扩展数据长度。这是 FD_CAN 专属的"加长货车许可证"。传统的 CAN 其标志位为 0（显性电平），FD_CAN 位 1（隐性电平），表示后面拉的数据可能超过 8 字节。
+  
+- ESI (Error state indicator)：错误状态指示。发送方用来告诉全网络自己的目前状态是否健康。如果它自己处于“被动错误”状态，这个标志位为 1。
+  
+- DLC (Data length code)：数据长度代码（4 bit）。运货清单，告诉接收方车厢里到底装了几个字节的货。
+  
+- Data field：数据段，传统 CAN 只能装 0—8 bytes，而 FD_CAN 的超级车厢可以装 0—64 bytes。
+  
+- CRC (Cyclic redundancy check)：循环冗余校验。安全封条。传统的 CAN 专用 15 bit CRC 校验码，而 FD_CAN 的数据量比较大，升级为更安全的 17 bit 或 21 bit 的 CRC。
+  
+- ACK (Acknowledge)：应答位。收件人确定签收的印章。
+  
+- EOF (End of frame)：结束帧（7 bit）。连续 7 个隐性电平位，表示车队已经驶出高速。
+  
+- IFS (Interframe space)：帧间空间（3 bit）。连续 3 个隐性电平位，强制规定“车队安全距离”，给主控时间去处理中断。
+  
+- DEL (Deliminator)：界定符。用来隔开不同功能的字段（如 CRC 界定符，ACK 界定符）。
+  
+- r0, r1：保留位。
+
