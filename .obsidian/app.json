@@ -1,6 +1,7 @@
 {
   "promptDelete": false,
   "useMarkdownLinks": true,
-  "newFileLocation": "folder",
-  "newFileFolderPath": "STM32H7/Pic"
+  "newFileLocation": "root",
+  "newFileFolderPath": "STM32H7/Pic",
+  "attachmentFolderPath": "STM32H7/Pic"
 }
