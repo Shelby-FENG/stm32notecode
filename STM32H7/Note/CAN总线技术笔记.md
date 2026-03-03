@@ -12,6 +12,8 @@ Time: 2026-03-03
 
 # FDCAN 总线时序图
 	不管是经典CAN还是FDCAN他们的核心时序都差不多。
-	
-![[Pasted image 20260303224936.png]]
+![](Pasted%20image%2020260303225633.png)
+
+
+
 
