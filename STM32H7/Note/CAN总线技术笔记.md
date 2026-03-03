@@ -27,7 +27,7 @@ Time: 2026-03-03
 - 紫红区域——CAN-FD data phase / 数据阶段
 	- 含义：不管 CAN 2.0 或 FDCAN 都是发送数据阶段，对于CAN-FD data phase，它区别于传统 CAN 的“高速区”。包含了真实的载荷数据（Data field）和校验码（CRC field）。
 	- 情境：不限速的狂飙转线。一旦过了收费站闸机，且获批了加速权限，车队就会瞬间提速（1 Mbps—5 Mbps），极速运送且可以装载大量货物。
-		Tip：传统 CAN 2.0 一般速度为 500 Kbps—1 Mbps
+	Tip：传统 CAN 2.0 一般速度为 500 Kbps—1 Mbps
 ## 概念认知（FD_CAN Mode）
 
 - SOF (Start of frame)：帧起始。标志着总线从空闲状态进入忙线，意味着"我要发车"。
